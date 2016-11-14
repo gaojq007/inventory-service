@@ -1,0 +1,18 @@
+---
+pre_build:
+  image: :
+  volumes:
+    - .:/root/inventory-service
+  commands:
+    - cd /root/inventory-service
+    - mvn clean package -DskipTests
+  outputs:
+    - /root/inventory-service/target/inventory-service-0.0.1-SNAPSHOT.jar
+build:
+  dockerfile_name: Dockerfile
+deploy:
+  - application: inventory-service
+    cluster: 87fd284d-cec0-48c9-99d3-69eb04e8d49b
+    partition: microsvc
+    containers:
+    - inventory-service 
