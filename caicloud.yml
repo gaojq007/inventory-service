@@ -11,11 +11,8 @@ pre_build:
 build:
   dockerfile_name: Dockerfile
 deploy:
-  - type: kubernetes #caicloud_claas
-    host: 192.168.10.105
-    token: 944d48fdb1e19f9d74683b6ffa55a0d68cbafe461d49117fb97366992f627737d1933393a6fa3fe363f9ad6731ce7d2cc9a25968d422c52a0118706dd87e9bf5
-    application: inventory-service
+  - application: inventory-service
     cluster: 87fd284d-cec0-48c9-99d3-69eb04e8d49b
-    partition: microsvc
+    partition: micosvc
     containers:
     - inventory-service 
