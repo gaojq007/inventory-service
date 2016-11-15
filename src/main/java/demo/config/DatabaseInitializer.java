@@ -65,7 +65,7 @@ public class DatabaseInitializer {
                         "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
                         "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
                         "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
-                        "Four nines of <em>stylability</em></p>", 22.99),
+                        "Four nines of <em>stylability</em></p>", 20.99),
 
                 new Product("Like a BOSH (T-Shirt, Women's Medium)", "SKU-34563", "<p>The BOSH Outer Shell (<strong>BOSH</strong>) " +
                         "is an elegant release engineering tool for a more virtualized cloud-native age. " +
