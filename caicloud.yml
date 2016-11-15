@@ -1,6 +1,6 @@
 ---
 pre_build:
-  image: cargo.caicloudprivatetest.com/daniel/maven:springc
+  image: cargo.caicloudprivatetest.com/daniel/maven:test
   volumes:
     - .:/root/inventory-service
   commands:
