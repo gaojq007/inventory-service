@@ -103,7 +103,7 @@
                 </configuration>
             </plugin>-->
         </plugins>
-    </build>-
+    </build>
     <repositories>
         <repository>
             <id>spring-snapshots</id>
