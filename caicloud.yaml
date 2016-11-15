@@ -13,6 +13,6 @@ build:
 deploy:
   - application: inventory-service
     cluster: 87fd284d-cec0-48c9-99d3-69eb04e8d49b
-    partition: microsvc
+    partition: micosvc
     containers:
     - inventory-service 
