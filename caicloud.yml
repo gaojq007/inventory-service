@@ -1,6 +1,6 @@
 ---
 pre_build:
-  image: golang:1.6
+  image: maven:3.3.9-jdk-7
   volumes:
     - .:/root/inventory-service
   commands:
